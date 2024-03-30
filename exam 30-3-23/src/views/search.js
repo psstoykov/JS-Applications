@@ -20,7 +20,7 @@ export async function showSearch(ctx) {
         } else {
             page.redirect(`?search=${search}`);
         }
-        const matches = await getMatches(search);//TODO create the correct search function
+        // const matches = await getMatches(search);//TODO create the correct search function
 
         render(searchTemplate(handler, matches));
     }

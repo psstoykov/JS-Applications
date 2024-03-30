@@ -1,4 +1,3 @@
-import { createFact } from '../data/service.js';
 import { html, render, page } from '../lib.js';
 import { createSubmitHandler } from '../util.js';
 
@@ -21,11 +20,5 @@ async function onSubmit(data, form) {
         return alert('all fields required');
     }
 
-    const result = await createFact({
 
-    });
-
-    if (result) {
-        page.redirect('/dashboard');
-    }
 }

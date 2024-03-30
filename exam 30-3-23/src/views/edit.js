@@ -26,7 +26,5 @@ export async function showEdit(ctx) {
         }
 
 
-
-        page.redirect(`/details/${id}`);
     }
 };

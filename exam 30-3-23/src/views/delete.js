@@ -1,4 +1,3 @@
-import { deleteFact } from '../data/service.js';
 import { page } from '../lib.js';
 
 export async function showDelete(ctx) {
@@ -8,7 +7,7 @@ export async function showDelete(ctx) {
 
     if (question) {
 
-        page.redirect('/dashboard');
+
     }
 
 }
